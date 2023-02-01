@@ -1,0 +1,571 @@
+html {
+    font-size:  62.5%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Bai Jamjuree';
+    background-image: url('images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: 100% 20vh;
+    font-size: 1.8rem;
+    
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+h1, h2, h3 {
+    color: #5d5b5b;
+    
+
+}
+
+p {
+    font-size: 1rem;
+    color: #a09d9d;
+    font-size: 1.8rem;
+}
+
+
+.wrapper {
+   max-width: 1440px;
+    margin: 0 auto;
+}
+
+/*Header Tab*/
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.header-logo {
+    margin-top: 4em;
+}
+
+.header-logo img{
+    width: 50%;
+    margin-top: 4em;
+}
+
+.header-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -1em;
+    
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+    
+}
+
+.info h1{
+    font-size: 4rem;
+}
+
+.info p {
+    margin-top: 0;
+    font-size: 1rem;
+    color: #a09d9d;
+    font-size: 1.8rem;
+}
+
+.open {
+   margin-left: 6em;
+  
+}
+
+.download{
+    display: flex;
+    align-items: center;
+    
+    gap: 1.1em;
+    margin-top: 3em;
+
+    
+
+}
+
+button{
+    padding: 1em 4em 1em 4em;
+    border-radius: 20em;
+    color: #ffffff;
+    font-size: 1.8rem;
+    
+}
+   
+
+
+.one {
+    background-color: #26baa4;
+    box-shadow: 3px 2px 5px 0px hsl(171deg, 66%, 44%);
+    border: 1px solid #26baa4 ;
+}
+
+.one:hover {
+    background-color: #26baa4;;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.two {
+    background-color: #6173ff;
+    box-shadow: 3px 2px 5px 0px hsl(233deg, 100%, 69%);
+    border: 1px solid #6173ff ;
+}
+
+.two:hover {
+    background-color: #6173ff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.hero-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5em;
+}
+
+.hero-info p {
+    color:  #a09d9d;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+/*Computer Tab*/
+.computer {
+    display: flex;
+    margin-top: 5em;
+    align-items: center;
+    
+}
+
+.computer ul {
+    display: flex;
+   /* justify-content: center;
+    align-items: center;
+    margin: 0;*/
+    flex-direction: column;
+    margin-left: 2em;
+}
+
+.computer img {
+    width: 40%;
+    margin-left: -3em;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 1em 0;
+}
+
+/*Clipboard Tab*/
+
+.clipbord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.clip-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8em;
+}
+
+.xl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    text-align: center;
+    
+}
+
+.clip-info p {
+    color: #a09d9d;
+}
+
+.snap {
+    margin-left: 12em;
+}
+
+/*Devices Tab*/
+
+.device {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6em;
+}
+
+.device img {
+    width: 40%;
+}
+
+
+
+/*WorkFlow Tab*/
+
+.workflow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6em;
+}
+
+.what-To-Do {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+    
+   
+    
+}
+
+.what-To-Do ul{
+    display: flex;
+    gap: 6em;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.toDo img {
+    width: 15%;
+   
+}
+
+.clipo {
+    margin-top: 2em;
+}
+
+.xlipo {
+    margin-left: 3em;
+}
+
+/*Partners Tab*/
+
+.partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+    gap: 6em;
+   
+}
+
+.partners img {
+    width: 10%;
+}
+
+
+
+
+/*Clipboard Tab*/
+
+
+.clipboard-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6em;
+}
+
+
+
+.download-clip {
+    display: flex;
+    align-items: center;
+    gap: 1.1em;
+    margin-top: 3em;
+
+    
+}
+
+/*Footer Tab*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin-top: 8em;
+    
+   
+    
+}
+
+.footer-logo img {
+    width: 30%;
+    margin-left: 2em;
+}
+
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    
+    
+
+}
+
+footer nav ul {
+    display: flex;
+    gap: 5em;
+   
+}
+
+footer a{
+    color: #5d5b5b;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.press {
+    margin-left: -3em;
+}
+
+footer a:hover {
+    color: #26baa4;
+}
+
+
+
+
+/*Social Media*/
+
+.socials {
+    display: flex;
+    gap: 2em;
+    margin-right: 4em;
+    
+}
+
+.socials img {
+    width: 50%;
+    cursor: pointer;
+     
+}
+
+.socials img:hover {
+    background-color:  #26baa4; 
+   
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+
+
+/*media Query*/
+
+@media screen and (max-width: 900px) {
+
+    html {
+        font-size:  62.5%;
+    }
+
+    body {
+        margin: 0;
+        font-family: 'Bai Jamjuree';
+        background-image: url('images/bg-header-mobile.png');
+        background-repeat: no-repeat;
+        background-size: 100% 20vh;
+        font-size: 1.8rem;
+        
+    }
+
+    .wrapper {
+        max-width: 900px;
+    }
+
+
+   header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   }
+
+   .header-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .header-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .download {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .hero-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   }
+
+   .computer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .clip-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .workflow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .what-To-Do {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   flex-grow: 2;
+
+   }
+   
+
+
+
+   .toDo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   }
+
+ 
+ 
+   
+
+   .toDo li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .toDo img {
+    width: 5%;
+   }
+
+
+   
+
+   /*text align*/
+
+   
+
+  
+   
+
+   .partners {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .partners img {
+    width: 20%;
+   }
+
+   .clipboard-download {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .download-clip {
+    display: flex;
+    flex-direction: column;
+   }
+
+   footer {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .footer-logo {
+    display: flex;
+    margin-top: 2em;
+   }
+
+.footer-bttn {
+    margin-top: 2em;
+}
+
+   .footer-bttn ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    gap: 0;
+    margin-left: -3em;
+    
+   }
+
+   .press {
+    margin: 0 auto;
+   }
+
+   .socials {
+    margin-top: 2em;
+    margin-bottom: 2em;
+   }
+
+   .socials img {
+    width: 90%;
+   }
+
+   
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Clipboard landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--Header-->
+      <header>
+        <!--Header-logo-->
+        <picture class="header-logo">
+          <source media="(max-width: 1440px)" srcset="images/logo.svg" />
+          <source media="(min-width: 900px)" srcset="images/logo.svg" />
+          <img src="images/logo.svg" alt="clipboard" />
+        </picture>
+      </header>
+
+      <div class="header-info">
+        <!--Info-->
+        <div class="info">
+          <h1>A history of everything you copy</h1>
+          <p>
+            Clipboard allows you to track and organize everything you copy.
+            Instantly <br />
+            <span class="">access your clipboard on all your devices.</span>
+          </p>
+        </div>
+
+        <!--header-button-->
+
+        <div class="download">
+          <button class="one">Download for iOS</button>
+          <button class="two">Download for Mac</button>
+        </div>
+      </div>
+
+      <!--What we do-->
+      <div class="hero-info">
+        <h2>Keep track of your snippets</h2>
+        <p>
+          Clipboard instantly stores any item you copy in the cloud, meaning you
+          can access <br />
+          your snippets immediately on all your devices. Our Mac and iOS apps
+          will help you <br />
+          organize everything.
+        </p>
+      </div>
+      <!--Computer section-->
+      <div class="computer">
+        <img src="images/image-computer.png" alt="computer" />
+
+        <!--Computer-info-->
+
+        <ul>
+          <li>
+            <h3>Quick Search</h3>
+            <p>
+              Easily search your snippets by content, category, web address,
+              application, and more.
+            </p>
+          </li>
+
+          <li>
+            <h3>iCloud Sync</h3>
+            <p>Instantly saves and syncs snippets across all your devices.</p>
+          </li>
+
+          <li>
+            <h3>Complete History</h3>
+            <p>
+              Retrieve any snippets from the first moment you started using the
+              app.
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <!--clipboard Info-->
+      <div class="clip-info">
+        <h2>Access Clipboard anywhere</h2>
+        <p>
+          Whether you’re on the go, or at your computer, you can access all your
+          Clipboard <br />
+          <span class="snap">snippets in a few simple clicks.</span>
+        </p>
+      </div>
+
+      <!--Devices-->
+      <div class="device">
+        <img src="images/image-devices.png" alt="devices" />
+      </div>
+
+      <!--Clipboard section-->
+
+      <div class="workflow">
+        <h2>Supercharge your workflow</h2>
+        <p>We’ve got the tools to boost your productivity.</p>
+      </div>
+
+      <!--What you can do-->
+      <div class="what-To-Do">
+        <ul class="toDo">
+          <!--blacklist-->
+          <li>
+            <img
+              class="xlipo"
+              src="images/icon-blacklist.svg"
+              alt="blacklist"
+            />
+            <h3 class="clipo">Create blacklists</h3>
+            <p class="clipa">
+              Ensure sensitive information never makes its way to your clipboard
+              by excluding certain sources.
+            </p>
+          </li>
+
+          <!--Plain Text-->
+          <li class="plainText">
+            <img class="xlipo" src="images/icon-text.svg" alt="plain text" />
+            <h3 class="clipo">Plain text snippets</h3>
+            <p class="clipa">
+              Remove unwanted formatting from copied text for a consistent look.
+            </p>
+          </li>
+
+          <!--Sneak preview-->
+          <li class="sneakP">
+            <img
+              class="xlipo"
+              src="images/icon-preview.svg"
+              alt="Sneak Preview"
+            />
+            <h3 class="clipo">Sneak preview</h3>
+            <p class="clipa">
+              Quick preview of all snippets on your Clipboard for easy access.
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <!--Partners-->
+      <div class="partners">
+        <img src="images/logo-google.png" alt="Google" />
+        <img src="images/logo-ibm.png" alt="IBM" />
+        <img src="images/logo-microsoft.png" alt="Microsoft" />
+        <img src="images/logo-hp.png" alt="HP" />
+        <img src="images/logo-vector-graphics.png" alt="Vector Graphics" />
+      </div>
+
+      <!--Clipboard Download-->
+      <div class="clipboard-download">
+        <h2>Clipboard for iOS and Mac OS</h2>
+        <p class="xl">
+          Available for free on the App Store. Download for Mac or iOS, sync
+          with iCloud and <br />
+          you’re ready to start adding to your clipboard.
+        </p>
+        <div class="download-clip">
+          <button class="one">Download for iOS</button>
+          <button class="two">Download for Mac</button>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <footer>
+        <!--footer-log0-->
+        <div class="footer-logo">
+          <a href="#"> <img src="images/logo.svg" alt="Clipboard" /></a>
+        </div>
+
+        <!--Nav button-->
+        <nav class="footer-bttn">
+          <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Install Guide</a></li>
+          </ul>
+
+          <ul class="bottom-list">
+            <li><a href="#">Contact Us</a></li>
+            <li><a class="press" href="#">Press Kit</a></li>
+          </ul>
+        </nav>
+
+        <div class="socials">
+          <a href="#"><img src="images/icon-facebook.svg" alt="Facebook" /></a>
+          <a href="#"><img src="images/icon-twitter.svg" alt="Twitter" /></a>
+          <a href="#"
+            ><img src="images/icon-instagram.svg" alt="Instagram"
+          /></a>
+        </div>
+      </footer>
+    </div>
+
+    <div class="last">
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://twitter.com/BrianOluohu">Brian Wodu Oluohu</a>.
+      </p>
+    </div>
+  </body>
+</html>
